@@ -34,7 +34,7 @@ namespace Practice
             var x0 = GetX();
             var y1 = f.GetY();
             var x1 = f.GetX();
-            var x2 = f.GetX();
+            var x2 = s.GetX();
             var y2 = s.GetY();
 
             return Math.Abs((y2 - y1) * x0 - (x2 - x1) * y0 + x2 * y1 - y2 * x1) / Math.Sqrt((y2 - y1) * (y2 - y1) + (x2 - x1) * (x2 - x1));
